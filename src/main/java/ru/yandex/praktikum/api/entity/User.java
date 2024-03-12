@@ -7,7 +7,6 @@ import io.qameta.allure.internal.shadowed.jackson.annotation.JsonInclude;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class User {
     private String email;
